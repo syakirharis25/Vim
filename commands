@@ -48,3 +48,12 @@ n -> next search result
 N -> previous search result
 :%s -> search entire file
 :nohlsearch -> remove highlight from search
+
+ctrl + w -> move to certain window
+:qa -> quit all files
+:wa -> write all files
+
+:tabnew -> open new tab
+:tabp -> tab previous
+:tabn -> tab next
+:tabclose -> tab close
