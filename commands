@@ -57,3 +57,13 @@ ctrl + w -> move to certain window
 :tabp -> tab previous
 :tabn -> tab next
 :tabclose -> tab close
+
+% -> jumpto matching bracket
+> -> indent
+< -> de-indent
+= -> properly indent
+
+u -> undo
+~ -> change case of character
+
+dd -> delete entire line
