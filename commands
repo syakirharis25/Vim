@@ -67,3 +67,17 @@ u -> undo
 ~ -> change case of character
 
 dd -> delete entire line
+
+:set nu -> show line numbers
+:set  rnu -> show relative line numbers
+:nu -> show what is within that line number
+
+:set autoindent -> automatically indent
+:set noerrorbells -> disable bells
+:set showmode -> show the working mode
+:set colorcolumn=X -> draw a column | X is number
+:set ruler -> show position info
+:set nohlsearch -> no highlight search
+:set bg=dark/light -> change foreground
+:set tabstop=X -> set tab spaces | X is number
+:colors <theme> -> set a theme
