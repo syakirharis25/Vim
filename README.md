@@ -1,2 +1,2 @@
 # Vim
-Vim commands and practices
+Vim commands and practices.
