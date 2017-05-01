@@ -3,10 +3,10 @@
 :w -> write
 :wq -> write and quit
 
-h - move cursor left
-j - move cursor down
-k - move cursor up
-l - move cursor right
+h -> move cursor left
+j -> move cursor down
+k -> move cursor up
+l -> move cursor right
 
 i -> insert before letter
 I -> insert beginning line
@@ -35,8 +35,8 @@ Y -> yanks the entire current line
 p -> pastes from the vim buffer after the current cursor position
 P -> pastes from the vim buffer before the current cursor position
 
-b -> move backwords
-B -> move backwords (not worrying about symbols)
+b -> move backword
+B -> move backword (not worrying about symbols)
 
 G -> move to the last line
 gg -> move to the top line
@@ -69,7 +69,7 @@ u -> undo
 dd -> delete entire line
 
 :set nu -> show line numbers
-:set  rnu -> show relative line numbers
+:set rnu -> show relative line numbers
 :nu -> show what is within that line number
 
 :set autoindent -> automatically indent
@@ -80,7 +80,7 @@ dd -> delete entire line
 :set nohlsearch -> no highlight search
 :set bg=dark/light -> change foreground
 :set tabstop=X -> set tab spaces | X is number
-:colors <theme> -> set a theme
+:colors <themename> -> set a theme
 
 :e -> edit file
-:e $myvimrc -> load vimrc file 
+:e $myvimrc -> load vimrc file
