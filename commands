@@ -43,7 +43,7 @@ gg -> move to the top line
 
 / -> search forward
 ? -> search backward
-<ENTER> -> submit search query
+-> submit search query
 n -> next search result
 N -> previous search result
 :%s -> search entire file
@@ -80,7 +80,29 @@ dd -> delete entire line
 :set nohlsearch -> no highlight search
 :set bg=dark/light -> change foreground
 :set tabstop=X -> set tab spaces | X is number
-:colors <themename> -> set a theme
+:colors  <themename> -> set a theme
 
 :e -> edit file
 :e $myvimrc -> load vimrc file
+
+:tabedit <filename> -> open new tab for the file
+:vsp <filename> -> vertical split the window for the file
+:sp <filename> -> horizontal split the window for the file
+
+ctrl-w T -> open the current tab with its own window
+
+:tabclose -> close the current tab
+:tabonly -> close all tabs except the current active tab
+
+gt -> switch between tabs
+gT -> switch to the last tab
+<number>gt -> switch to the specified number tab
+:tabmore<number>  -> reorder the tab window position
+
+ctrl-w s -> split window horizontally
+ctrl-w v -> split window vertically
+ctrl-w = -> split windows equally
+ctrl-w h -> move to the left tab
+ctrl-w j -> move to the below tab
+ctrl-w k -> move to the upper tab
+ctrl-w l -> move to the right tab
