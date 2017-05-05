@@ -106,3 +106,5 @@ ctrl-w h -> move to the left tab
 ctrl-w j -> move to the below tab
 ctrl-w k -> move to the upper tab
 ctrl-w l -> move to the right tab
+
+:color evening -> change to evening theme
