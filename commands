@@ -109,5 +109,6 @@ ctrl-w l -> move to the right tab
 
 :color evening -> change to evening theme
 :color pablo -> change to pablo theme
+:colo pablo -> change to pablo theme
 
 :colortheme-CTRL+D -> view all available themes
