@@ -43,7 +43,6 @@ gg -> move to the top line
 
 / -> search forward
 ? -> search backward
--> submit search query
 n -> next search result
 N -> previous search result
 :%s -> search entire file
