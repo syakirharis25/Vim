@@ -1,2 +1,2 @@
 # Vim
-Vim commands and practices.
+My works related to Vim text editor.
