@@ -33,6 +33,10 @@ $ git status
 <a name="calculation"></a>
 ## 4. GitHub repository calculation.
 ```
-test
+-------------------------------------------------------------------------------
+Language                     files          blank        comment           code
+-------------------------------------------------------------------------------
+Markdown                         1              7              0             31
+-------------------------------------------------------------------------------
 ```
 Refer to : https://github.com/syakirharis25/cloc
